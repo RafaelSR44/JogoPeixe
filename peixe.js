@@ -23,6 +23,7 @@ function preload(){
   this.load.image('peixe', 'assets/peixes/peixe_turquesa.png');
 
   this.load.image('alga', 'assets/alga.png');
+  this.load.image('alga2', 'assets/alga2.png');
 }
 
 function create(){
@@ -31,6 +32,7 @@ function create(){
 
   this.add.image( 400, 525, 'logo').setScale(0.5);
   this.add.image( 250,500,'alga');
+  this.add.image( 525,500,'alga2');
 
   peixinho = this.add.image( 400, 300, 'peixe');
   peixinho.setFlip(true,false);
